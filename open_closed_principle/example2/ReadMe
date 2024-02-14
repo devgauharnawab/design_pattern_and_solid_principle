@@ -1,14 +1,14 @@
 in this example:
 
-We have an interface Shape representing a geometric shape with a method area() to calculate its area.
+**We have an interface Shape representing a geometric shape with a method area() to calculate its area**
 
-We have two concrete implementations of Shape: Rectangle and Circle.
+**We have two concrete implementations of Shape: Rectangle and Circle.**
 
-The AreaCalculator class is responsible for calculating the total area of a collection of shapes. It takes an array of Shape objects and 
+**The AreaCalculator class is responsible for calculating the total area of a collection of shapes. It takes an array of Shape objects and **
 
-iterates over them, calling the area() method of each shape to calculate its area and summing them up.
+**iterates over them, calling the area() method of each shape to calculate its area and summing them up.**
 
-The Main class demonstrates how to use the AreaCalculator to calculate the total area of a collection of shapes.
+**The Main class demonstrates how to use the AreaCalculator to calculate the total area of a collection of shapes.**
 
-This code follows the Open/Closed Principle because if you want to add a new shape (e.g., a Triangle), you can do so by creating a new 
-class that implements the Shape interface without modifying the existing AreaCalculator class. This way, the AreaCalculator class is closed for modification but open for extension.
+**This code follows the Open/Closed Principle because if you want to add a new shape (e.g., a Triangle), you can do so by creating a 
+class that implements the Shape interface without modifying the existing AreaCalculator class. This way, the AreaCalculator class is closed for modification but open for extension.**
