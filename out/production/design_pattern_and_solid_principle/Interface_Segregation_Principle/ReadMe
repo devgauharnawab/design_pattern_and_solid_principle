@@ -1,0 +1,10 @@
+**Interface Segregation Principle**
+<s>A principle of object-oriented design that states "clients should not be forced to depend on interfaces they do not use." 
+- Separate high level interface from low level implementation.
+  - Higher levels should not be forced to depend on lower levels. They should only need what they require and nothing more.
+  
+  -This principle was first defined by Robert C. Martin as: 
+
+  **Clients should not be forced to depend upon interfaces that they do not use**
+
+The goal of this principle is to reduce the side effects of using larger interfaces by breaking application interfaces into smaller ones. It’s similar to the Single Responsibility Principle, where each class or interface serves a single purpose.

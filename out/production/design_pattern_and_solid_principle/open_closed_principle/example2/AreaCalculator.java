@@ -1,4 +1,4 @@
-package open_closed_principle.example2;
+package out.production.design_pattern_and_solid_principle.open_closed_principle.example2;
 
 public class AreaCalculator {
     public double calculateTotalArea(Shape[] shapes) {
