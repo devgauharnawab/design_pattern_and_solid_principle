@@ -2,7 +2,7 @@
 
 ![SOLID Principles](https://img.shields.io/badge/SOLID-Principles-blue)
 
-![SOLID Principles](solid_principles.png)
+![SOLID Principles](https://www.monterail.com/hubfs/blog/featured/SOLID.png)
 
 ## Introduction
 SOLID principles are a set of design principles that help software developers create more maintainable and scalable software systems. These principles provide guidelines for designing object-oriented software components that are easier to understand, maintain, and extend over time.
