@@ -1,0 +1,12 @@
+The Dependency Inversion Principle (DIP) is one of the five SOLID principles of object-oriented programming. It suggests that high-level modules should not depend on low-level modules, but both should depend on abstractions. In other words, instead of classes depending on concrete implementations, they should depend on interfaces or abstract classes. This promotes decoupling and flexibility in the codebase.
+
+
+
+
+In this example:
+
+We have an Device interface representing a device with methods turnOn() and turnOff().
+LightBulb and Fan are concrete implementations of the Device interface.
+The Switch class represents a high-level module that depends on the abstraction (Device interface). It takes a Device object in its constructor and operates on it without knowing the specific implementation.
+In the main method, we create instances of LightBulb and Fan, and then use them with the Switch class, which demonstrates that the high-level module (Switch) depends on abstractions (Device interface), not on concrete implementations (LightBulb or Fan).
+By adhering to the Dependency Inversion Principle, the code becomes more flexible and easy to maintain because it's decoupled from concrete implementations. If we need to add new devices in the future, we can do so without modifying existing classes like Switch.
